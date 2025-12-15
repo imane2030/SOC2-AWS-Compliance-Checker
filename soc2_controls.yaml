@@ -1,0 +1,16 @@
+controls:
+  S3_ENCRYPTION:
+    soc2: "CC6.1"
+    description: "S3 buckets must enforce encryption at rest"
+  CLOUDTRAIL_ENABLED:
+    soc2: "CC7.2"
+    description: "CloudTrail enabled in all regions for logging"
+  MFA_FOR_IAM_USERS:
+    soc2: "CC6.3"
+    description: "MFA enabled for IAM console users"
+  SG_LEAST_PRIVILEGE:
+    soc2: "CC6.6"
+    description: "Security groups should not allow 0.0.0.0/0 on sensitive ports"
+  EBS_ENCRYPTED:
+    soc2: "CC6.1"
+    description: "EBS volumes must be encrypted at rest"
